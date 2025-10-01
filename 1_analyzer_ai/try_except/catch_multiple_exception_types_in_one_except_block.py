@@ -118,7 +118,8 @@ def test_finally_with_return():
         return "From try"
     finally:
         print("Finally runs even with return!")
-
+        return 0
+    print("aaaa")
     
 if __name__ == "__main__":
     # print(test_zero())
