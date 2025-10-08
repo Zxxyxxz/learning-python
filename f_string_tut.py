@@ -6,6 +6,7 @@ virgullu_rakim=120007.9847838827428
 yuz_d_yuz=1
 yuz_d_eli=0.5
 yuz_d_1=0.01
+some="""a\n\ns\n\nc\n      """
 
 insan_dictionarisi = {"name": ad, "age":00,"loc":"mzitli"}
 class Insan:
@@ -54,6 +55,8 @@ def f_str_1_tut():
               {"___asagi inin__"*8} {"\n"*10}
               simdi dictionary ile formatlama
               \n insan kalsindan {insan_1.name} {insan_1.age} yasinda bulunur
+              \n one last expmale of .strip method {some} ok in the end of the last letter which is c we got a new line so this line gotta be printed in the new line 
+              \n but this way{some.strip() } this continuoatino snetence should be jsut after the letter c we \n we have senet he strip method removes the last space sand the newlines
               """)
         
         
