@@ -1,4 +1,5 @@
 import anthropic
+import sys
 import os
 # get the api key
 msg="Not_set_yet"
@@ -31,7 +32,7 @@ else:
 if __name__=="__main__":
     try:
         print(msg)
- 
+        print(sys.argv)
     except:
         print("it failed")
   
