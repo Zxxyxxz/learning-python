@@ -27,6 +27,13 @@ else:
     print("the random module is already loaded")
 
 
+
+# now we are playing with the stdin and stdout
+
+# we can read from stdin these 2 variations are just kinda the same
+user_input= sys.stdin.readline()
+user_input= input()
+
 print("please enter something ___")
 ina=sys.stdin.read()
 # sys.quit(0)
