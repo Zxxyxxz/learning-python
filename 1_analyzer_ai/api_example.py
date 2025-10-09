@@ -37,7 +37,10 @@ if __name__=="__main__":
               \n 2- type(xxx) this is tells us what class or type an object is
               \n such as type(msg) => {type(msg)} will give us string if the antrhopic comm is not 
               ebtablished if so then antroppiuc type message should it be and type(int)  => {type(int)} will give us ttpye
-               lets print the msg -> {msg}
+              \n 2.1 > also lets try one interesting thing and see what is going to happen {type(type(int))}this interesting thig gives us this {type(type(int))} \n
+              \n as of also to see something else because we just observeed teh same thing as single type of an int so lets try ewith the message
+              \n 1 type -> {type(msg)} , then 2 type {type(type(msg))} maybe also 3 types {type(type(type(msg)))}
+               \nlets print the msg -> {msg}
               \n then lets print the tpye of it {type(msg)}
               \n lets also see the type of its content {type(msg.content)} \n
               \n {{dir()}}, {dir()}
