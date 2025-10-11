@@ -1,5 +1,4 @@
-**One hour. Here's EXACTLY what you do:**
-
+1_analyzer_ai/api_example.py rework mods
 ## Fix your Python chatbot from earlier
 
 You got it 90% working. The bugs are simple. Let's finish it.
