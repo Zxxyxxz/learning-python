@@ -46,16 +46,21 @@ def send_to_cli(msg_to_cli):
             
         )
         return message.content[0].text
-    
+messages=[]
 if __name__=="__main__":
     inn="0"
+    i=0
     while inn!="q":
         if inn == '0':
             print(f"please enter whatever you want to ask to the chatbot adn you end the converstation by jsut pressing q and enter")
             
-        inn = sys.stdin.readline()
+        inn = sys.stdin.readline().strip()
         print(inn)
-        print(send_to_cli(inn))
+        messages.append({"role":"user", "content":inn, "role":"assistant", "content":send_to_cli(inn)})
+        messages.append({})
+        print(messages[i].content)
+        i+=1
+        
         
     # for i in msg.content[0].text:
     #     print(i)
