@@ -58,7 +58,7 @@ if __name__=="__main__":
         print(inn)
         messages.append({"role":"user", "content":inn, "role":"assistant", "content":send_to_cli(inn)})
         messages.append({})
-        print(messages[i].content)
+        print((messages[i].get[1]))
         i+=1
         
         
